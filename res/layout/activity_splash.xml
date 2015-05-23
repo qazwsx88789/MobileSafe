@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="${relativePackage}.${activityClass}"
-    android:background="@drawable/luncher_bg" >
+    android:background="@drawable/luncher_bg"
+    android:id="@+id/rl_root_splash" >
 
     <TextView
         android:id="@+id/tv_splash_version"
